@@ -37,10 +37,16 @@
 
 }
 
-.sticky {
+.stickyBox{
+    display: inline-block;
     position: sticky;
-    position: -webkit-sticky;
-    top: 0;
+    width: 100px;
+    height: 100px;
+    background-color: black;
+    top: 0px;
+    text-align: center;
+    color: white;
+    padding: 40px;
 }
 
 @media only screen and (max-width: 720px) {
